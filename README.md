@@ -35,7 +35,9 @@ $`\sum_{i=1}^{n}\frac{(-1)^{i+1}}{i\cdot (i+1)}`$
 
 ,where _n_ > 0.
 
-Don't use conditional statements (_if_, _if-else_), ternary operator ?: and _Math.Pow_ method.
+Use _while_ statement to calculate the power of 
+
+Don't use _Math.Pow_ method. Use _while_ statement to raise a number to the required power.
 
 
 #### Sub-task 3
@@ -59,7 +61,7 @@ $`\sum_{i=1}^{n}\frac{1}{(2\cdot i+1)^2}`$
 
 , where _n_ > 0.
 
-Don't use conditional statements (_if_, _if-else_) or ternary operator ?:.
+Don't use _Math.Pow_ method. Use _while_ statement to raise a number to the required power.
 
 
 #### Sub-task 5
@@ -83,7 +85,7 @@ $`\sum_{i=1}^{n}\frac{(-1)^i}{2\cdot i + 1}`$
 
 , where _n_ > 0.
 
-Don't use conditional statements (_if_, _if-else_), ternary operator ?: and _Math.Pow_ method.
+Don't use _Math.Pow_ method. Use _while_ statement to raise a number to the required power.
 
 
 ## Fix Compiler Issues
