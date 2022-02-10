@@ -37,7 +37,7 @@ $`\sum_{i=1}^{n}\frac{(-1)^{i+1}}{i\cdot (i+1)}`$
 
 ,where _n_ > 0.
 
-To calculate power use a _while_ statement. 
+To calculate power of N use a _while_ statement. 
 
 To raise a number to the required power use a _while_ statement. Don't use the _Math.Pow_ method.
 
