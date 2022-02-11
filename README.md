@@ -1,4 +1,4 @@
-﻿# While Practice
+# While Practice
 
 Beginner level task for practicing while statements.
 
@@ -11,7 +11,7 @@ The task requires .NET 6 SDK installed.
 
 The task has six sub-tasks. Each sub-task is a small coding exercise.
 
-In this task use the only *while* statements. Using *for* or *do-while* iteration statements is not required.
+Use the only *while* statements in this task. Using *for* or *do-while* iteration statements is not required.
 
 If you have issues with running test cases for huge _n_ numbers, check your code for _int_ data types and cast values to _double_.
 
@@ -37,9 +37,7 @@ $`\sum_{i=1}^{n}\frac{(-1)^{i+1}}{i\cdot (i+1)}`$
 
 ,where _n_ > 0.
 
-Use _while_ statement to calculate the power of 
-
-Don't use _Math.Pow_ method. Use _while_ statement to raise a number to the required power.
+To raise a number to the required power use a _while_ statement. Don't use the _Math.Pow_ method.
 
 
 #### Sub-task 3
@@ -63,7 +61,7 @@ $`\sum_{i=1}^{n}\frac{1}{(2\cdot i+1)^2}`$
 
 , where _n_ > 0.
 
-Don't use _Math.Pow_ method. Use _while_ statement to raise a number to the required power.
+Use a _while_ statement to raise a number to the required power. Don't use _Math.Pow_ method. 
 
 
 #### Sub-task 5
@@ -87,7 +85,7 @@ $`\sum_{i=1}^{n}\frac{(-1)^i}{2\cdot i + 1}`$
 
 , where _n_ > 0.
 
-Don't use _Math.Pow_ method. Use _while_ statement to raise a number to the required power.
+Use a _while_ statement to raise a number to the required power. Don't use _Math.Pow_ method. 
 
 
 ## Fix Compiler Issues
