@@ -7,11 +7,11 @@
         [TestCase(100, 3.639682294531309)]
         [TestCase(1_000_000, 3.676074234300874)]
         [TestCase(10_000_000, 3.6760775427785917)]
-        public void GetProductOneTests(int n, double expectedResult)
+        public void GetSequenceProduct(int n, double expectedResult)
         {
             double actualResult = Task5.GetSequenceProduct(n);
 
-            Assert.AreEqual(expectedResult, actualResult, double.Epsilon);
+            Assert.AreEqual(expectedResult, actualResult, 1e-10);
         }
     }
 }

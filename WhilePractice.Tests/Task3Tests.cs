@@ -7,11 +7,11 @@
         [TestCase(100, 1.0369277526929555)]
         [TestCase(1_000_000, 1.036927755143338)]
         [TestCase(10_000_000, 1.036927755143338)]
-        public void GetSumThreeTests(int n, double expectedResult)
+        public void SumSequenceElementsTests(int n, double expectedResult)
         {
             double actualResult = Task3.SumSequenceElements(n);
 
-            Assert.AreEqual(expectedResult, actualResult, double.Epsilon);
+            Assert.AreEqual(expectedResult, actualResult, 1e-10);
         }
     }
 }
