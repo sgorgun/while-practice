@@ -1,4 +1,6 @@
-﻿namespace WhilePractice
+﻿using System;
+
+namespace WhilePractice
 {
     public static class Task1
     {
@@ -9,7 +11,19 @@
         /// <returns>Sum of elements.</returns>
         public static double SumSequenceElements(int n)
         {
-            throw new NotImplementedException();
+            double sum = 0;
+            double i = 1;
+            double k = n;
+            double term;
+
+            while (i <= k)
+            {
+                term = 1 / k;
+                k--;
+                sum += term;
+            }
+
+            return sum;
         }
     }
 }

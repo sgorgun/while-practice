@@ -10,7 +10,21 @@
         /// <returns>Sum of elements.</returns>
         public static double SumSequenceElements(int n)
         {
-            throw new NotImplementedException();
+            double result = 0;
+            double i = 1;
+            double term;
+            double one = -1;
+            double minus = 1;
+
+            while (i <= n)
+            {
+                minus *= one;
+                term = minus / ((2 * i) + 1);
+                i++;
+                result += term;
+            }
+
+            return result;
         }
     }
 }
